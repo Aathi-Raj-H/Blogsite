@@ -1,0 +1,32 @@
+
+#place{
+    font-size: 250%;
+    font-weight: 500 ;
+    margin-left: 20px;
+}
+
+.path{
+    color: rgb(207, 8, 42);
+    padding: 10px;
+    margin-top: 30px ;
+}
+@media screen and (min-width:990px){
+    .navbar-right{
+        position: absolute;
+        right:10px;
+    }
+    
+}
+.navbar-toggler{
+    margin-right:20px;
+}
+.nav-item{
+    margin-left: 20px;
+}
+.nav-link:hover{
+    background-color: rgba(0, 0, 0,0.2);
+}
+
+footer{
+    font-size: 70%;
+}

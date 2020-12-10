@@ -1,0 +1,23 @@
+<%- include('partials/header')-%>
+
+<div class="container">
+    
+
+    
+    <form action="/compose" method="POST">
+        <div class="form-group">
+          <label for="title">Title:</label>
+          <input type="text" class="form-control" name= "titleOne" id="name">
+    
+       
+          <label for="content">Content:</label>
+          <textarea class="form-control" rows="5" aria-placeholder="Type here"name="contentOne" value=""></textarea>
+       
+        
+        <button type="submit" class="btn btn-primary mt-3" name="list" value="">Submit</button>
+      </form>
+
+</div>
+ 
+
+ <%- include('partials/footer')-%>
